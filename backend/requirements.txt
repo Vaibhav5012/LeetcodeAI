@@ -5,7 +5,16 @@ google-genai==2.3.0
 requests==2.34.2
 python-dotenv==1.2.2
 twilio==9.10.9
+elevenlabs
 apscheduler==3.11.2
 motor==3.7.1
 pytz==2026.2
 pymongo==4.17.0
+
+# --- Test & Dev Dependencies ---
+pytest
+pytest-asyncio
+pytest-mock
+httpx
+responses
+ruff
